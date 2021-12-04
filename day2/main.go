@@ -12,12 +12,13 @@ func Solve() {
 	instructions := strings.Split(input, "\n")
 	x, y := finalDistances(instructions)
 	x2, y2 := finalDistances2(instructions)
+	fmt.Println("DAY 2")
 	fmt.Println("Part 1")
 	fmt.Printf("Final horizontal distance is %v.\nFinal vertical distance is %v.\n", x, y)
-	fmt.Printf("Answer is %v", x*y)
+	fmt.Printf("Answer is %v\n", x*y)
 	fmt.Println("Part 2")
 	fmt.Printf("Final horizontal distance is %v.\nFinal vertical distance is %v.\n", x2, y2)
-	fmt.Printf("Answer is %v", x2*y2)
+	fmt.Printf("Answer is %v\n", x2*y2)
 }
 
 func getInputString(path string) string {

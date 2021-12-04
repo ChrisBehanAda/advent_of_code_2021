@@ -13,6 +13,7 @@ func Solve() {
 	nums := stringToIntSlice(input, delim)
 	ans1 := countIncreases(nums)
 	ans2 := countTripletIncreases(nums)
+	fmt.Println("DAY 1")
 	fmt.Printf("Depth increased %v times.\n", ans1)
 	fmt.Printf("Triplet depth increased %v times.\n", ans2)
 }
