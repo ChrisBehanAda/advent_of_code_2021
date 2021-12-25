@@ -4,7 +4,9 @@ import (
 	"example.com/day1"
 	"example.com/day10"
 	"example.com/day11"
+	"example.com/day12"
 	"example.com/day2"
+	"example.com/day25"
 	"example.com/day3"
 	"example.com/day4"
 	"example.com/day5"
@@ -26,4 +28,6 @@ func main() {
 	day9.Solve()
 	day10.Solve()
 	day11.Solve()
+	day12.Solve()
+	day25.Solve()
 }
